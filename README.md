@@ -3,7 +3,9 @@
 An attempt to map the denovo transcripts to the denovo genome in-order to find chimeric regions of the genome. The limitation being that the transcript itself must not be Chimeric.
 
 
+
 I. Mapping of the Transcripts onto the genome
+
 1) Just take the longest transcript from an isoformic group and then use GMP-GSNAP to map the transcript onto the genome. A simple bash script can be used to remove the redundancy from the whole list of transcripts.
 
 2) Make an index of the genome from the species with gmap_index.
